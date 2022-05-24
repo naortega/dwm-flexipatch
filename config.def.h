@@ -125,11 +125,11 @@ static void (*bartabmonfns[])(Monitor *) = { NULL /* , customlayoutfn */ };
 #endif // MONOCLE_LAYOUT
 #endif // BAR_TABGROUPS_PATCH
 #if BAR_PANGO_PATCH
-static const char font[]                 = "monospace 10";
+static const char font[]                 = "xos4 Terminus:style=Regular:pixelsize=14:antialias=true:autohint=true";
 #else
-static const char *fonts[]               = { "monospace:size=10" };
+static const char *fonts[]               = { "xos4 Terminus:style=Regular:pixelsize=14:antialias=true:autohint=true" };
 #endif // BAR_PANGO_PATCH
-static const char dmenufont[]            = "monospace:size=10";
+static const char dmenufont[]            = "xos4 Terminus:style=Regular:pixelsize=14:antialias=true:autohint=true";
 
 static char c000000[]                    = "#000000"; // placeholder value
 
